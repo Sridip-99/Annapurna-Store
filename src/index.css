@@ -979,7 +979,7 @@ main {
                     width: 90px;
                     height: 90px;
                     position: absolute;
-                    background-image: url(./src/assets/images/quote.svg);
+                    background-image: url(https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/21d3f8cc763dac05f49f45950d6320d662c065ff/src/assets/images/quote.svg);
                     background-size: cover;
                     background-repeat: no-repeat;
                     filter: contrast(2) invert(0) brightness(1) saturate(1.3);
@@ -2255,7 +2255,7 @@ footer {
                         width: 90px;
                         height: 90px;
                         position: absolute;
-                        background-image: url(./src/assets/images/quote.svg);
+                        background-image: url(https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/21d3f8cc763dac05f49f45950d6320d662c065ff/src/assets/images/quote.svg);
                         background-size: cover;
                         background-repeat: no-repeat;
                         filter: contrast(2) invert(0) brightness(1) saturate(1.3);
