@@ -37,11 +37,12 @@ const Footer = () => {
                 </div>
             </div>
             <p>
-                &copy; 2005-2025 - Annapurna Store | All Rights Reserved | <i>Developed with <i className="fa-regular fa-heart" style={{"color": "#ff9f6f"}}></i> by</i> <a href="https://sridiptah99.netlify.app" target="_blank" rel="noopener noreferrer">Sridip Tah</a>
+                &copy; 2005-2025 - Annapurna Store | All Rights Reserved | <i>Designed & Developed with <i className="fa-regular fa-heart" style={{"color": "#ff9f6f"}}></i> by</i> <a href="https://sridiptah99.netlify.app" target="_blank" rel="noopener noreferrer">Sridip Tah</a>
             </p>
         </div>
     </footer>
   )
 }
+
 
 export default Footer
