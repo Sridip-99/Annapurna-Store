@@ -5,7 +5,7 @@ const Header = () => {
     <header>
         <a className="brand" href="#home">
             <div className="logo-img">
-                <img src="./src/assets/images/logo.png" alt="brand logo"></img>
+                <img src="https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/logo.png" alt="brand logo"></img>
             </div>
             <div className="logo-name">
                 <h1>Ann<span>ap</span>urna Store</h1>
@@ -37,5 +37,6 @@ const Header = () => {
     </header>
   )
 }
+
 
 export default Header
