@@ -7,7 +7,7 @@ const About = () => {
             <h2><span>About</span> Us</h2>
             <div className="flex-container">
                 <div className="image-container">
-                    <img src="./src/assets/images/businessman.png" alt=""></img>
+                    <img src="https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/businessman.png" alt=""></img>
                 </div>
                 <div className="text-container">
                     <h3>Our Story: <strong>Fueling Your Day, Simplifying Your Life.</strong></h3>
@@ -20,5 +20,6 @@ const About = () => {
     </section>
   )
 }
+
 
 export default About
