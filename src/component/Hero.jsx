@@ -124,13 +124,14 @@ const Hero = () => {
             </div>
         </div>
         <div className="biscuit">
-            <img src="./src/assets/images/biscuit.png" alt="biscuit image"></img>
+            <img src="https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/biscuit.png" alt="biscuit image"></img>
         </div>
         <div className="pencil">
-            <img src="./src/assets/images/pencil2.png" alt="pencil image"></img>
+            <img src="https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/pencil2.png" alt="pencil image"></img>
         </div>
     </section>
   )
 }
+
 
 export default Hero
