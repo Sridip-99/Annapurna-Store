@@ -1296,7 +1296,7 @@ footer {
 }
 
 /* ================================= MOBILE DEVICES STYLES ================================= */
-@media screen and (max-width:640px) {
+@media screen and (max-width:768px) {
     header {
         position: fixed;
         top: 0;
