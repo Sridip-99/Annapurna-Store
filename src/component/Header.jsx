@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <header>
-        <a className="brand" href="#home">
+        <a className="brand" href="https://annapurnastore.netlify.app/">
             <div className="logo-img">
                 <img src="https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/logo.png" alt="brand logo"></img>
             </div>
@@ -40,3 +40,4 @@ const Header = () => {
 
 
 export default Header
+
