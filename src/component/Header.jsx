@@ -1,9 +1,37 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 const Header = () => {
+  const [activeSection, setActiveSection] = useState('home');
+
+  useEffect(() => {
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.5
+    };
+
+    const observerCallback = (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          setActiveSection(entry.target.id);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+    // Observe all sections
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => observer.observe(section));
+
+    return () => {
+      sections.forEach(section => observer.unobserve(section));
+    };
+  }, []);
+
   return (
     <header>
-        <a className="brand" href="https://annapurnastore.netlify.app/">
+        <a className="brand" href="#home">
             <div className="logo-img">
                 <img src="https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/logo.png" alt="brand logo"></img>
             </div>
@@ -21,11 +49,11 @@ const Header = () => {
         <div className="Navbar">
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#sell">Retail Products</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#home" className={activeSection === 'home' ? 'active' : ''}>Home</a></li>
+                    <li><a href="#about" className={activeSection === 'about' ? 'active' : ''}>About Us</a></li>
+                    <li><a href="#sell" className={activeSection === 'sell' ? 'active' : ''}>Retail Products</a></li>
+                    <li><a href="#testimonials" className={activeSection === 'testimonials' ? 'active' : ''}>Testimonials</a></li>
+                    <li><a href="#faq" className={activeSection === 'faq' ? 'active' : ''}>FAQ</a></li>
                 </ul>
             </nav>
             <div className="social-links">
@@ -38,6 +66,4 @@ const Header = () => {
   )
 }
 
-
 export default Header
-
