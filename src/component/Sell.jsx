@@ -6,64 +6,64 @@ const sell = () => {
         {
             id: 1,
             name: 'Toothpaste',
-            image: 'https://picsum.photos/id/201/200/220',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Toothpaste.webp',
         },
         {
             id: 2,
             name: 'Soap',
-            image: 'https://picsum.photos/id/202/200/220',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Soap.webp',
         },
         {
             id: 3,
             name: 'Shampoo',
-            image: 'https://picsum.photos/id/203/200/220',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Shampoo.webp',
         },
         {
             id: 4,
             name: 'Conditioner',
-            image: 'https://picsum.photos/id/204/200/220',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Conditioner.webp',
         },
         {
             id: 5,
             name: 'Hair Oil',
-            image: 'https://picsum.photos/id/209/200/220',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Hair Oil.webp',
         },
         {
             id: 6,
             name: 'Body Lotion',
-            image: 'https://picsum.photos/id/206/200/220',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Body Lotion.webp',
         }
     ];
     const fastFood = [
         {
             id: 1,
             name: 'Biscuit',
-            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Biscuit.png',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Biscuit.webp',
         },
         {
             id: 2,
             name: 'Cakes',
-            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Cake.png',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Cake.webp',
         },
         {
             id: 3,
             name: 'Chocolates',
-            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Chocolate.png',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Chocolate.webp',
         },
         {
             id: 4,
             name: 'Chips',
-            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Chips.png',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Chips.webp',
         },
         {
             id: 5,
             name: 'Namkeen',
-            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Namkeen.png',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Namkeen.webp',
         },
         {
             id: 6,
             name: 'Tea',
-            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Tea.png',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Tea.webp',
         }
     ];
     const stationeryItems = [
@@ -136,3 +136,4 @@ const sell = () => {
 
 
 export default sell
+
