@@ -69,33 +69,33 @@ const sell = () => {
     const stationeryItems = [
         {
             id: 1,
-            name: 'Book',
-            image: 'https://picsum.photos/id/301/200/220',
+            name: 'Diary',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Diary.webp',
         },
         {
             id: 2,
             name: 'Notebook',
-            image: 'https://picsum.photos/id/302/200/220',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/NoteBook.webp',
         },
         {
             id: 3,
             name: 'Pen',
-            image: 'https://picsum.photos/id/309/200/220',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Pen.webp',
         },
         {
             id: 4,
-            name: 'Pencil',
-            image: 'https://picsum.photos/id/304/200/220',
+            name: 'Geometry Box',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Geometry Box.webp',
         },
         {
             id: 5,
-            name: 'Geometry Box',
-            image: 'https://picsum.photos/id/305/200/220',
+            name: 'Drawing Book',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Drawing Book.webp',
         },
         {
             id: 6,
-            name: 'Scale',
-            image: 'https://picsum.photos/id/306/200/220',
+            name: 'Office Essentials',
+            image: 'https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/Products/Office essentials.webp',
         }
     ];
 
@@ -133,7 +133,4 @@ const sell = () => {
     </section>
     )
 }
-
-
 export default sell
-
