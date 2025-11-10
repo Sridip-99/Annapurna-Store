@@ -219,7 +219,7 @@ header {
                     transition: all 0.3s ease-in-out;
                 }
 
-                & a:hover {
+                & a:hover, a.active{
                     background-color: #592800;
                     height: 98%;
                 }
@@ -1463,7 +1463,7 @@ footer {
                         transition: all 0.3s ease-in-out;
                     }
 
-                    & a:hover {
+                    & a:hover, a.active {
                         background-color: #7c3800;
                         height: 96%;
                     }
