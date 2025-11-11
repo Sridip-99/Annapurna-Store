@@ -94,7 +94,7 @@ const Hero = () => {
                     </p>
                     <div className="home-btn-container">
                         <a href="#sell">Explore The Store <i className="fa-solid fa-arrow-right"></i></a>
-                        <a href="https://maps.app.goo.gl/wMA6kBix1C45Ty8x7" target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-map-location-dot"></i> Get Direction</a>
+                        <a href="https://maps.app.goo.gl/B3F4f6ppKnr9TkHX7" target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-map-location-dot"></i> Get Direction</a>
                     </div>
                 </div>
                 <div className="gallery-container">
@@ -135,4 +135,5 @@ const Hero = () => {
 
 
 export default Hero
+
 
