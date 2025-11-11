@@ -31,12 +31,13 @@ const Contact = () => {
                 </div>
                 <div className="location">
                     <h4>Our Store Location</h4>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229.0575791661602!2d88.26003512944858!3d23.2823103811891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8fc095cde7a7f%3A0x6e47f84b0548da8f!2s77J6%2BV35%2C%20Bhagra%2C%20West%20Bengal%20713405!5e0!3m2!1sen!2sin!4v1762531712854!5m2!1sen!2sin" width="380" height="280" style={{ border: '0' }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d229.0576672687501!2d88.26032679870154!3d23.282259166605673!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8fd4b8000379b%3A0x43b575807e152e0!2sAnnapurna%20Fastfood%20%26%20Stationers!5e0!3m2!1sen!2sin!4v1762892168591!5m2!1sen!2sin" width="380" height="280" style={{ border: '0' }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
     </section>
   )
 }
+
 
 export default Contact
