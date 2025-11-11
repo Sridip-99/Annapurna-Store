@@ -1320,6 +1320,7 @@ footer {
         padding-left: 4px;
         border-radius: 40px;
         border: 1px solid rgba(255, 255, 255, 0.15);
+        margin-left: 8px;
         background: rgba(30, 10, 0, 0.25);
         backdrop-filter: blur(3px);
         & .logo-img {
