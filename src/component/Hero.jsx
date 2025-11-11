@@ -109,8 +109,8 @@ const Hero = () => {
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                                     referrerPolicy="strict-origin-when-cross-origin" 
                                     allowFullScreen></iframe>
-                            <img src="https://picsum.photos/id/200/560/315" alt=""></img>
-                            <img src="https://picsum.photos/id/240/560/315" alt=""></img>
+                            <img src="https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/store_outer.jpg" alt="Shop Outer Image"></img>
+                            <img src="https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/signboard.jpg" alt="Sign Board Image"></img>
                         </div>
                         <button id="prev" onClick={handlePrev}>&lt;</button>
                         <button id="next" onClick={handleNext}>&gt;</button>
@@ -135,3 +135,4 @@ const Hero = () => {
 
 
 export default Hero
+
