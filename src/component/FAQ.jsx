@@ -23,7 +23,7 @@ const FAQ = () => {
                             <i className="fa-solid fa-plus"></i>
                         </button>
                         <div className={`faq-answer ${activeIndex === 0 ? 'active' : ''}`}>
-                            <p>We are open from <strong>8:00 AM</strong> to <strong>9:00 PM</strong>, Monday to Saturday.</p>
+                            <p>We are open from <strong>8:00 AM</strong> to <strong>9:00 PM</strong>, Everyday. Shop remain closed on lunch hours from <strong>1:30 PM</strong> to <strong>4:30 PM</strong>.</p>
                         </div>
                     </div>
                     <div className="faq-item">
@@ -31,11 +31,11 @@ const FAQ = () => {
                             className="faq-question"
                             onClick={() => handleClick(1)}
                         >
-                            Do you offer delivery services?
+                            Do you accept online payments?
                             <i className="fa-solid fa-plus"></i>
                         </button>
                         <div className={`faq-answer ${activeIndex === 1 ? 'active' : ''}`}>
-                            <p>Yes, we offer delivery services within a <strong>5 km radius</strong> of our store. Please contact us for more details.</p>
+                            <p>Yes, we accept online payments only through <strong>UPI</strong>.</p>
                         </div>
                     </div>
                     <div className="faq-item">
@@ -56,5 +56,6 @@ const FAQ = () => {
     </section>
   )
 }
+
 
 export default FAQ
