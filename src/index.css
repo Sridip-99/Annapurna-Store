@@ -642,7 +642,7 @@ main {
             display: flex;
             align-items: center;
             justify-content: center;
-            border-radius: 0 0 50% 20%;
+            border-radius: 0 0 20% 45%;
             overflow: hidden;
             position: relative;
             z-index: 1;
@@ -660,7 +660,7 @@ main {
             border-radius: 50%;
             position: absolute;
             top: 10%;
-            left: 10px;
+            left: 20px;
             z-index: -1;
         }
         & .image-container::after {
@@ -671,8 +671,8 @@ main {
             opacity: 0.75;
             border-radius: 50%;
             position: absolute;
-            bottom: -5%;
-            left: 14px;
+            bottom: -10%;
+            right: 12px;
             z-index: -2;
         }
         & .text-container{
@@ -1921,7 +1921,7 @@ footer {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                border-radius: 0 0 50% 20%;
+                border-radius: 0 0 28% 12%;
                 overflow: hidden;
                 position: relative;
                 z-index: 1;
@@ -1938,8 +1938,8 @@ footer {
                 opacity: 1;
                 border-radius: 50%;
                 position: absolute;
-                top: 10%;
-                left: 10px;
+                top: 12%;
+                left: 40px;
                 z-index: -1;
             }
             & .image-container::after {
@@ -1950,8 +1950,8 @@ footer {
                 opacity: 0.75;
                 border-radius: 50%;
                 position: absolute;
-                bottom: -5%;
-                left: 14px;
+                bottom: -8%;
+                right: 8px;
                 z-index: -2;
             }
             & .text-container{
