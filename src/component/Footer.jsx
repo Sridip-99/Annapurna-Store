@@ -12,7 +12,7 @@ const Footer = () => {
                         <a href="tel:+919476390512"><i className="fa-solid fa-phone"></i> +91 94763 90512</a>
                         <a href="mailto:sadhantah0@gmail.com"><i className="fa-solid fa-envelope"></i> sadhantah0@gmail.com</a>
                         <a href="https://wa.me/+919476390512"><i className="fa-brands fa-whatsapp"></i> +91 94763 90512</a>
-                        <a href="https://maps.app.goo.gl/jFhEpPxgtnPDH7p57" target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-location-dot"></i> Annapurna Fastfood & Stationers, Madhupur, West Bengal 713405</a>
+                        <a href="https://maps.app.goo.gl/jFhEpPxgtnPDH7p57" target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-location-dot"></i> 77J6+W3 Madhupur, West Bengal</a>
                     </div>
                     
                 </div>
@@ -46,4 +46,5 @@ const Footer = () => {
 
 
 export default Footer
+
 
