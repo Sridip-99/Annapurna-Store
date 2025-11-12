@@ -23,7 +23,7 @@ const FAQ = () => {
                             <i className="fa-solid fa-plus"></i>
                         </button>
                         <div className={`faq-answer ${activeIndex === 0 ? 'active' : ''}`}>
-                            <p>We are open from <strong>8:00 AM</strong> to <strong>9:00 PM</strong>, Everyday. Shop remain closed on lunch hours from <strong>1:30 PM</strong> to <strong>4:30 PM</strong>.</p>
+                            <p>We are open from <strong>9:00 AM</strong> to <strong>9:30 PM</strong>, Everyday. Shop remain closed on lunch hours from <strong>1:30 PM</strong> to <strong>4:30 PM</strong>.</p>
                         </div>
                     </div>
                     <div className="faq-item">
@@ -59,3 +59,4 @@ const FAQ = () => {
 
 
 export default FAQ
+
