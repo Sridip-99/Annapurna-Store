@@ -9,6 +9,7 @@ const FAQ = () => {
 
   return (
     <section id="faq">
+        <div class="faqbg"></div>
         <div className="container">
             <h2>Frequently Asked <span>Questions</span></h2>
             <div className="flex-container">
@@ -59,4 +60,5 @@ const FAQ = () => {
 
 
 export default FAQ
+
 
