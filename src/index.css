@@ -1051,7 +1051,7 @@ main {
 #faq{
     border: 1.5px solid #ff990020;
     scroll-margin: 6rem;
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
     border-radius: 40px;
     position: relative;
     .faqbg{
