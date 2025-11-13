@@ -80,6 +80,7 @@ section{
             border-radius: 50%;
             display: block;
             background: linear-gradient(120deg, #bc4800, #bc480082);
+            backdrop-filter: blur(5px);
             outline: 0.05rem solid #ff933578;
             opacity: 0.5;
             position: absolute;
@@ -1047,56 +1048,78 @@ main {
     }
 }
 /* ================================= FAQ STYLING ================================= */
-#faq .flex-container{
-    align-items: flex-start;
-    & .faq-container{
-        width: 70%;
-        margin-top: 2rem;
-        & .faq-item{
-            width: 100%;
-            margin-bottom: 1rem;
-            border-radius: 8px;
-            background: linear-gradient(120deg, #3a1300, #5b2300);
-            border: 1px solid #ffd90080;
-            box-shadow: 0 0 12px #ffb70020;
-            cursor: pointer;
-            will-change: transform, box-shadow;
-            transition: all 0.3s ease-in-out;
-            & .faq-question{
+#faq{
+    border: 1.5px solid #ff990020;
+    scroll-margin: 6rem;
+    padding-bottom: 4rem;
+    border-radius: 40px;
+    position: relative;
+    .faqbg{
+        content: '';
+        background-image: url(https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/faqbgpc.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: invert(0) brightness(2) contrast(1.3) saturate(2.5);
+        opacity: 0.045;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -10;
+    }
+    .flex-container{
+        align-items: flex-start;
+        & .faq-container{
+            width: 70%;
+            margin-top: 2rem;
+            & .faq-item{
                 width: 100%;
-                padding: 1rem;
-                text-align: left;
-                font-size: 1.5rem;
-                font-weight: 500;
-                color: #ffd636;
-                font-family: 'poppins', sans-serif;
-                background: none;
-                outline: none;
-                border: none;
-                transition: all 0.3s ease-in-out;
-                position: relative;
+                margin-bottom: 1rem;
+                border-radius: 8px;
+                background: linear-gradient(120deg, #3a1300, #5b2300);
+                border: 1px solid #ffd90080;
+                box-shadow: 0 0 12px #ffb70020;
                 cursor: pointer;
-                & i{
-                    position: absolute;
-                    right: 0.8rem;
-                    top: 30%;
-                    color: #ff8426;
-                }
-            }
-            
-            & .faq-answer{
-                padding: 1rem;
-                padding-top: 0;
-                margin-top: .8rem;
-                font-size: 1rem;
-                font-weight: 350;
-                line-height: 2.5ch;
-                color: #e0e0e0;
-                display: none;
-                overflow-wrap: break-word;
+                will-change: transform, box-shadow;
                 transition: all 0.3s ease-in-out;
-                &.active{
-                    display: block;
+                & .faq-question{
+                    width: 100%;
+                    padding: 1rem;
+                    text-align: left;
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    color: #ffd636;
+                    font-family: 'poppins', sans-serif;
+                    background: none;
+                    outline: none;
+                    border: none;
+                    transition: all 0.3s ease-in-out;
+                    position: relative;
+                    cursor: pointer;
+                    & i{
+                        position: absolute;
+                        right: 0.8rem;
+                        top: 30%;
+                        color: #ff8426;
+                    }
+                }
+                
+                & .faq-answer{
+                    padding: 1rem;
+                    padding-top: 0;
+                    margin-top: .8rem;
+                    font-size: 1rem;
+                    font-weight: 350;
+                    line-height: 2.5ch;
+                    color: #e0e0e0;
+                    display: none;
+                    overflow-wrap: break-word;
+                    transition: all 0.3s ease-in-out;
+                    &.active{
+                        display: block;
+                    }
                 }
             }
         }
@@ -1554,6 +1577,7 @@ footer {
                 border-radius: 50%;
                 display: block;
                 background: linear-gradient(120deg, #bc4800, #bc480082);
+                backdrop-filter: blur(5px);
                 outline: 0.05rem solid #ff933578;
                 opacity: 0.75;
                 position: absolute;
@@ -2311,57 +2335,79 @@ footer {
         }
     }
     /* ================================= FAQ STYLING ================================= */
-    #faq .flex-container{
-        align-items: flex-start;
-        & .faq-container{
+    #faq{
+        border: 1.5px solid #ff990020;
+        scroll-margin: 6rem;
+        padding-bottom: 4rem;
+        border-radius: 20px;
+        position: relative;
+        .faqbg{
+            content: '';
+            background-image: url(https://raw.githubusercontent.com/Sridip-99/Annapurna-Store/refs/heads/main/src/assets/images/faqbgmobile.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: invert(0) brightness(2) contrast(1.3) saturate(2.5);
+            opacity: 0.045;
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
-            margin-top: 2rem;
-            & .faq-item{
+            height: 100%;
+            z-index: -10;
+        }
+        .flex-container{
+            align-items: flex-start;
+            & .faq-container{
                 width: 100%;
-                margin-bottom: 1rem;
-                border-radius: 8px;
-                background: linear-gradient(120deg, #3a1300, #5b2300);
-                border: 1px solid #ffd90080;
-                box-shadow: 0 0 12px #ffb70020;
-                cursor: pointer;
-                will-change: transform, box-shadow;
-                transition: all 0.3s ease-in-out;
-                & .faq-question{
+                margin-top: 2rem;
+                & .faq-item{
                     width: 100%;
-                    padding: 1rem;
-                    text-align: left;
-                    font-size: 1rem;
-                    font-family: 'poppins', sans-serif;
-                    font-weight: 500;
-                    color: #ffd636;
-                    background: none;
-                    outline: none;
-                    border: none;
-                    transition: all 0.3s ease-in-out;
-                    position: relative;
+                    margin-bottom: 1rem;
+                    border-radius: 8px;
+                    background: linear-gradient(120deg, #3a1300, #5b2300);
+                    border: 1px solid #ffd90080;
+                    box-shadow: 0 0 12px #ffb70020;
                     cursor: pointer;
-                    & i{
-                        font-size: 0.8rem;
-                        position: absolute;
-                        top: 40%;
-                        right: 0.8rem;
-                        color: #ff8426;
-                    }
-                }
-                
-                & .faq-answer{
-                    padding: 1rem;
-                    padding-top: 0;
-                    margin-top: 0.8rem;
-                    font-size: 0.8rem;
-                    font-weight: 350;
-                    line-height: 2.5ch;
-                    color: #e0e0e0;
-                    display: none;
-                    overflow-wrap: break-word;
+                    will-change: transform, box-shadow;
                     transition: all 0.3s ease-in-out;
-                    &.active{
-                        display: block;
+                    & .faq-question{
+                        width: 100%;
+                        padding: 1rem;
+                        text-align: left;
+                        font-size: 1rem;
+                        font-family: 'poppins', sans-serif;
+                        font-weight: 500;
+                        color: #ffd636;
+                        background: none;
+                        outline: none;
+                        border: none;
+                        transition: all 0.3s ease-in-out;
+                        position: relative;
+                        cursor: pointer;
+                        & i{
+                            font-size: 0.8rem;
+                            position: absolute;
+                            top: 40%;
+                            right: 0.8rem;
+                            color: #ff8426;
+                        }
+                    }
+                    
+                    & .faq-answer{
+                        padding: 1rem;
+                        padding-top: 0;
+                        margin-top: 0.8rem;
+                        font-size: 0.8rem;
+                        font-weight: 350;
+                        line-height: 2.5ch;
+                        color: #e0e0e0;
+                        display: none;
+                        overflow-wrap: break-word;
+                        transition: all 0.3s ease-in-out;
+                        &.active{
+                            display: block;
+                        }
                     }
                 }
             }
