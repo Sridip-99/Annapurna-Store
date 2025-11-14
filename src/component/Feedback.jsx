@@ -1,0 +1,74 @@
+import React from 'react'
+import { motion, transform } from 'framer-motion'
+import Card from './Card'
+import { tr } from 'framer-motion/client';
+
+const Feedback = () => {
+	const testimonials = [
+        {
+            id: 1,
+            name: 'Ashok Ghosh',
+            image: 'https://static6.depositphotos.com/1003580/615/i/450/depositphotos_6151014-stock-photo-african-american-man-portrait.jpg',
+			about: 'Resident of Madhupur',
+			feedback: 'This is a great store with a wide variety of products. The staff is friendly and helpful. Highly recommend!',
+			YTshotslink: 'https://youtube.com/shorts/oOdARic5wvg?si=SGP__460lc1eWGfB',
+		},
+        {
+            id: 2,
+            name: 'Bimal Das',
+            image: 'https://images.unsplash.com/photo-1544723795-3fb6469f5b39?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=689',
+			about: 'Daily Customer',
+			feedback: 'I love shopping here! The prices are competitive and the quality of products is top-notch. Will definitely be coming back.',
+			YTshotslink: 'https://youtube.com/shorts/wJK2qp9AXUA?si=wOhPTjxJIIZsoZGX',
+        },
+        {
+            id: 3,
+            name: 'Chandan Saha',
+            image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880',
+			about: 'Resident of Guptipur',
+			feedback: 'Shopping at Annapurna Store has been a wonderful experience. The owner is knowledgeable and always willing to assist. Highly recommend to everyone!',
+			YTshotslink: 'https://youtube.com/shorts/1IvRkuzZXs8?si=KXFTGcBYVBOIzVNn',
+        }
+    ];
+	const slideFade = () => {
+        const initial = {right: 0}
+        const whileInView = {right: '-8%'}
+        return {
+        initial,
+        whileInView,
+        viewport: { once: true, amount: 0.4 },
+        transition: { duration: 0.6, ease: 'easeInOut' }
+        }
+    }
+	const rotate = () => {
+        const initial = {transform: 'rotate(0deg)'}
+        const whileInView = {transform: 'rotate(40deg)'}
+        return {
+        initial,
+        whileInView,
+        viewport: { once: true, amount: 0.4 },
+        transition: { duration: 1, ease: 'easeInOut' }
+        }
+    }
+	return (
+	<section id="testimonials">
+		<motion.div className='circle2' {...slideFade()}>
+			<motion.div className='square2' {...rotate()}></motion.div>
+		</motion.div>
+		<div className="container">
+			<h2>Consumer's <span>Feedback</span></h2>
+			<div className="flex-container">
+				<p>Read testimonials from our satisfied customers who have experienced the quality and convenience of shopping at Annapurna Store.</p>
+				<div className="feedback-container">
+					{testimonials.map(user => (
+						<Card key={user.id} id={user.id} userName={user.name} image={user.image} about={user.about} feedback={user.feedback} YTshotslink={user.YTshotslink} />
+					))}
+				</div>
+			</div>
+		</div>
+	</section>
+	)
+}
+
+export default Feedback
+
