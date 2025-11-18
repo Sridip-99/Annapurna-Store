@@ -55,7 +55,7 @@ const Footer = () => {
                     <div className="social-links">
                         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-facebook"></i></a>
                         <a href="https://www.instagram.com/annapurna.store" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-youtube"></i></a>
+                        <a href="https://youtube.com/@annapurnastore01" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-youtube"></i></a>
                     </div>
                 </motion.div>
             </div>
@@ -69,5 +69,6 @@ const Footer = () => {
 
 
 export default Footer
+
 
 
